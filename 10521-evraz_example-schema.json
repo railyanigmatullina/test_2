@@ -133,6 +133,21 @@
                 ]
             }
         },
+        "CuratorList_type": {
+            "type": "array",
+            "minItems": 0,
+            "items": {
+                "type": "object",
+                "properties": {
+                    "CuratorID": {"type": "string"},
+                    "FullName": {"type": "string"}
+                },
+                "required": [
+                    "CuratorID",
+                    "FullName"
+                ]
+            }
+        },        
         "RelatedDocuments_type": {
             "type": "array",
             "minItems": 0,
@@ -280,8 +295,8 @@
                     "$ref": "#/definitions/LetterOfGuarantee_type",
                     "description": "Договор субподряда"
                 },
-                "CuratorFullName": {
-                    "type": "string",
+                "CuratorList": {
+                    "$ref": "#/definitions/CuratorList_type",
                     "description": "ФИО куратора"
                 },
                 "INN": {
