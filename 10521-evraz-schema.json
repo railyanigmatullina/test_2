@@ -602,59 +602,80 @@
             }
         },
         "MaterialInfo_type": {
+          "type": "array",
+          "minItems": 0,
+          "items": {
             "type": "object",
             "properties": {
-                "ContractNumber": {
-                    "type": "string",
-                    "description": "Номер договора"
-                },
-                "NameInventory": {
-                    "type": "string",
-                    "description": "Наименование ТМЦ"
-                },
-                "OfficeEquipmentFlag": {
-                    "type": "boolean",
-                    "description": "является орг.техникой"
-                },
-                "ArticleNumber": {
-                    "type": "string",
-                    "title": "",
-                    "description": "Артикул"
-                },
-                "UnitChange": {
-                    "type": "string",
-                    "description": "Ед. изм. ТМЦ"
-                },
-                "Quantity": {
-                    "type": "string",
-                    "description": "Количество ТМЦ"
-                },
-                "QuantityContribution": {
-                    "type": "integer",
-                    "description": "Количество ТМЦ (внос)"
-                },
-                "Remaining": {
-                    "type": "integer",
-                    "description": "Остаток ТМЦ"
-                },
-                "QuantityTakeaway": {
-                    "type": "integer",
-                    "description": "Количество ТМЦ (вынос)"
-                },
-                "InventoryNumber": {
-                    "type": "string",
-                    "description": "Инвентарный номер"
-                },
-                "SerialOrManufacturingNumber": {
-                    "type": "string",
-                    "description": "Серийный/Заводской номер"
-                },
-                "BrandOrModel": {
-                    "type": "string",
-                    "description": "Марка/Модель"
-                },
-                "FileList": {"$ref": "#/definitions/DocumentsNonResident_type"}
-            }
+              "ContractNumber": {
+                "type": "string",
+                "description": "Номер договора"
+              },
+              "NameInventory": {
+                "type": "string",
+                "description": "Наименование ТМЦ"
+              },
+              "OfficeEquipmentFlag": {
+                "type": "boolean",
+                "description": "является орг.техникой"
+              },
+              "ArticleNumber": {
+                "type": "string",
+                "title": "",
+                "description": "Артикул"
+              },
+              "UnitChange": {
+                "type": "string",
+                "description": "Ед. изм. ТМЦ"
+              },
+              "Quantity": {
+                "type": "string",
+                "description": "Количество ТМЦ"
+              },
+              "QuantityContribution": {
+                "type": "integer",
+                "description": "Количество ТМЦ (внос)"
+              },
+              "Remaining": {
+                "type": "integer",
+                "description": "Остаток ТМЦ"
+              },
+              "QuantityTakeaway": {
+                "type": "integer",
+                "description": "Количество ТМЦ (вынос)"
+              },
+              "InventoryNumber": {
+                "type": "string",
+                "description": "Инвентарный номер"
+              },
+              "SerialOrManufacturingNumber": {
+                "type": "string",
+                "description": "Серийный/Заводской номер"
+              },
+              "BrandOrModel": {
+                "type": "string",
+                "description": "Марка/Модель"
+              },
+              "FileList": {
+                "$ref": "#/definitions/DocumentsNonResident_type"
+              }
+            },
+            "required": [
+              "UnitChange",
+              "ContractNumber",
+              "InventoryNumber",
+              "QuantityTakeaway",
+              "BrandOrModel",
+              "FileList",
+              "NameInventory",
+              "Quantity",
+              "OfficeEquipmentFlag",
+              "QuantityContribution",
+              "SerialOrManufacturingNumber",
+              "ArticleNumber",
+              "Remaining"
+            ]
+          }
         },
         "EmployeeList_type": {
             "type": "object",
