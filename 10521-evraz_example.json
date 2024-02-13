@@ -238,38 +238,40 @@
         }
       ]
     },
-    "MaterialInfo": {
-      "ContractNumber": "1234567890",
-      "NameInventory": "text",
-      "OfficeEquipmentFlag": 0,
-      "ArticleNumber": "1234567890",
-      "UnitChange": "text",
-      "Quantity": "text",
-      "QuantityContribution": 12,
-      "Remaining": 12,
-      "QuantityTakeaway": 12,
-      "InventoryNumber": "1234567890",
-      "SerialOrManufacturingNumber": "1234567890",
-      "BrandOrModel": "text",
-      "FileList": [
-        {
-          "Name": "Документы первичного учета",
-          "Size": 3478048,
-          "Data": "base64",
-          "DateCreate": "2024-02-07T09:42:21.000+03:00",
-          "DateChange": "2024-02-07T09:56:09.000+03:00",
-          "Link": "URL"
-        },
-        {
-          "Name": "Скан документа-основания",
-          "Size": 3478048,
-          "Data": "base64",
-          "DateCreate": "2024-02-07T09:42:21.000+03:00",
-          "DateChange": "2024-02-07T09:56:09.000+03:00",
-          "Link": "URL"
-        }
-      ]
-    }
+    "MaterialInfo": [
+      {
+        "ContractNumber": "1234567890",
+        "NameInventory": "text",
+        "OfficeEquipmentFlag": 0,
+        "ArticleNumber": "1234567890",
+        "UnitChange": "text",
+        "Quantity": "text",
+        "QuantityContribution": 12,
+        "Remaining": 12,
+        "QuantityTakeaway": 12,
+        "InventoryNumber": "1234567890",
+        "SerialOrManufacturingNumber": "1234567890",
+        "BrandOrModel": "text",
+        "FileList": [
+          {
+            "Name": "Документы первичного учета",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          },
+          {
+            "Name": "Скан документа-основания",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          }
+        ]
+      }
+    ] 
   }
 }
 
