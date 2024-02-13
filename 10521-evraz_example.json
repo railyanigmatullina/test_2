@@ -1,0 +1,278 @@
+{
+  "GeneralInfo": {
+    "SystemNumber": "LKK-12345",
+    "InternalSystemNumber": "СЭД-12345",
+    "OutsideOrganizationFlag": 1,
+    "SubcontractorFlag": 1,
+    "ContractingOrganizationFlag": 0,
+    "PassType": "text",
+    "Purpose": "text",
+    "DivisionVisit": "??",
+    "ListCheckpoints": "",
+    "StartDateStay": "2024-02-06",
+    "EndDateStay": "2024-02-28",
+    "PeriodPropertyTransfer": "2024-02-28",
+    "VisitedAt": "2024-02-06T15:33:25+03:00",
+    "Comment": "text",
+    "IsAroundClockFlag": 1,
+    "OnSchedule": "text",
+    "HolidaysFlag": 0,
+    "TypeWork": "text",
+    "ContractList": [
+     {
+        "ContractNumber": "1234567890",
+        "Name": "Договор1234567890",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "Link": "URL"
+     }
+    ],
+    "LetterOfGuarantee":{
+        "Name": "Договор1234567899",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "Link": "URL"
+      },
+    "ProjectNumberEDMStList": [
+      {
+        "ProjectNumberEDMS": "1234567890",
+        "Name": "Договор1234567890",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "Link": "URL"
+      },
+      {
+        "ProjectNumberEDMS": "1234567899",
+        "Name": "Гарантийное письмо",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "Link": "URL"
+      }
+    ],
+    "SubcontractAgreement":{
+      "Name": "Договор субподряда",
+      "Size": 3478048,
+      "Data": "base64",
+      "DateCreate": "2024-02-07T09:42:21.000+03:00",
+      "DateChange": "2024-02-07T09:56:09.000+03:00",
+      "Link": "URL"
+    },
+    "CuratorFullName": "FIO",
+    "CuratorList": [
+      {
+        "CuratorID": "009",
+        "FullName": "ФИО"
+      },
+      {
+        "CuratorID": "009",
+        "FullName": "ФИО"
+      }
+
+    ],
+
+    "INN": "2116493687",
+    "ShortName": "ООО Пышка",
+    "IssuePlace": "КГОК: БП КГОК",
+    "RelatedDocuments": [
+      {
+        "Name": "Сопутствующие документы",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "Link": "URL"
+      },
+      {
+        "Name": "Сопутствующие документы",
+        "Size": 3478048,
+        "Data": "base64",
+        "DateCreate": "2024-02-07T09:42:21.000+03:00",
+        "DateChange": "2024-02-07T09:56:09.000+03:00",
+        "FileID": "111788783102072024064217evpa0nc"
+      }
+    ]
+  },
+  "EmployeeList": {
+    "EmployeeInfo": [
+      {
+        "ResidentFlag": 1,
+        "Citizenship": "Гражданство",
+        "DocumentsNonResident": [
+          {
+            "Name": "Согласование с ФСБ",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          },
+          {
+            "Name": "Программа приёма иностранных граждан",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          }
+        ],
+        "LastName": "Иванов",
+        "FirstName": "Иван",
+        "MiddleName": "Иванович",
+        "NoMiddleName": 0,
+        "BirthDate": "1976-11-07",
+        "PlaceBirth": "Кыргызстан",
+        "MobileNumber": "9586319864",
+        "JobType": "должность",
+        "DocumentList": [
+          {
+            "DocumentType": "Passport",
+            "Series": "8090",
+            "Number": "ID1428114",
+            "IssueDate": "2019-10-11",
+            "Issued": "MKK 214081"
+          }
+        ],
+        "ResidenceAddress": "141070, Российская Федерация, Московская обл, г Королёв, ул Болдырева, 5, кв. 118",
+        "TemporaryRegistrationAddress": "141070, Российская Федерация, Московская обл, г Королёв, ул Болдырева, 5, кв. 118",
+        "PassportDocumentFile": [
+          {
+            "Name": "Паспорт",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          }
+        ],
+        "Pass": "пропуск",
+        "Agreement": "Договор",
+        "RequestPhotoOrVideoShooting": 1,
+        "Rationale": "text",
+        "NameOfTheShippingCompany": "text",
+        "DateOfTraining":"2024-02-07",
+        "FileList": [
+          {
+            "Name": "карточка о прохождении инструктажа/лист ознакомления о прохождении инструктажа",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          },
+          {
+            "Name": "Фотография",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          },
+          {
+            "Name": "СОГЛАСИЕ НА ОБРАБОТКУ ПЕРСОНАЛЬНЫХ ДАННЫХ",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          },
+          {
+            "Name": "ЛИСТ ОЗНАКОМЛЕНИЯ С ПОЛОЖЕНИЕМ О ВНУТРИОБЪЕКТОВОМ И ПРОПУСКНОМ РЕЖИМЕ",
+            "Size": 3478048,
+            "Data": "base64",
+            "DateCreate": "2024-02-07T09:42:21.000+03:00",
+            "DateChange": "2024-02-07T09:56:09.000+03:00",
+            "Link": "URL"
+          }
+        ],
+        "Date of issue of temporary pass": "1976-11-07"
+      }
+    ],
+    "DocumentDrivingLicense": {
+      "Series": "8090",
+      "Number": "ID1428114",
+      "DrivingLicenseFile": {
+          "Name": "Водительское удостоверение",
+          "Size": 3478048,
+          "Data": "base64",
+          "DateCreate": "2024-02-07T09:42:21.000+03:00",
+          "DateChange": "2024-02-07T09:56:09.000+03:00",
+          "Link": "URL"
+        },
+      "PersonalTransportFlag": 0,
+      "CarType": [
+        {
+          "Mark": "Lifan",
+          "Model": "Solano",
+          "StateNumber": "E123МС702",
+          "Color": "черный",
+          "GeolocationData": "текст",
+          "TrailerType": [
+            {
+              "StateNumber": "E123МС702"
+            }
+          ],
+          "ListOfEmployeesWithAccess": "",
+          "CarPapersFile": [
+            {
+              "Name": "Свидетельство о регистрации ТС",
+              "Size": 3478048,
+              "Data": "base64",
+              "DateCreate": "2024-02-07T09:42:21.000+03:00",
+              "DateChange": "2024-02-07T09:56:09.000+03:00",
+              "Link": "URL"
+            },
+            {
+              "Name": "Договор аренды на ТС",
+              "Size": 3478048,
+              "Data": "base64",
+              "DateCreate": "2024-02-07T09:42:21.000+03:00",
+              "DateChange": "2024-02-07T09:56:09.000+03:00",
+              "Link": "URL"
+            }
+          ]
+        }
+      ]
+    },
+    "MaterialInfo": {
+      "ContractNumber": "1234567890",
+      "NameInventory": "text",
+      "OfficeEquipmentFlag": 0,
+      "ArticleNumber": "1234567890",
+      "UnitChange": "text",
+      "Quantity": "text",
+      "QuantityContribution": 12,
+      "Remaining": 12,
+      "QuantityTakeaway": 12,
+      "InventoryNumber": "1234567890",
+      "SerialOrManufacturingNumber": "1234567890",
+      "BrandOrModel": "text",
+      "FileList": [
+        {
+          "Name": "Документы первичного учета",
+          "Size": 3478048,
+          "Data": "base64",
+          "DateCreate": "2024-02-07T09:42:21.000+03:00",
+          "DateChange": "2024-02-07T09:56:09.000+03:00",
+          "Link": "URL"
+        },
+        {
+          "Name": "Скан документа-основания",
+          "Size": 3478048,
+          "Data": "base64",
+          "DateCreate": "2024-02-07T09:42:21.000+03:00",
+          "DateChange": "2024-02-07T09:56:09.000+03:00",
+          "Link": "URL"
+        }
+      ]
+    }
+  }
+}
+
